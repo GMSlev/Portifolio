@@ -1,0 +1,170 @@
+*{
+    box-sizing: border-box;
+    box-sizing: content-box;
+    scroll-behavior: smooth;
+}
+body{
+    background-color: #f6e6ce;
+    color: rgb(0, 0, 0);
+    font-family: 'Roboto Condensed', sans-serif;
+    text-align: center;
+    line-height: 1.6;
+    height: 100%;
+    overflow-x: hidden;
+    width: 100%;
+    justify-content: center;
+    padding-top: 80px;
+
+}
+header{
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    z-index: 1000;
+    background-color: rgba(230,210,180,0.8);
+    backdrop-filter: blur(10px);
+    -webkit-backdrop-filter: blur(10px);
+    padding: 20px 0;
+    border-bottom: 1px solid rgba(0,0,0,0.05);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.LinkedinFoto img{
+    width:180px;
+    height:180px;
+    border-radius: 50%;
+    object-fit:cover;
+    transition: transform 0.3s;   
+}
+.LinkedinFoto img:hover{
+    transform: scale(1.05);
+}
+h1{
+   font-family: 'Bitcount Single', monospace;
+}
+h2{
+    font-family: 'Bitcount Single', monospace;
+    margin-bottom: 10px;
+    margin-top: 20px;
+}
+.navegacao a{
+    margin: 0 15px;
+    text-decoration: none;
+    color: black;
+    font-weight: bold;
+    display: inline-block;
+    position: relative;
+    transition: color 0.3s ease;
+}
+.navegacao a:hover{
+    color: #e49a45;
+}
+.navegacao a::after{
+    content:'';
+    width: 0;
+    height: 2px;
+    display: block;
+    background: #fcac00;
+    transition: width 0.3s;
+    position: absolute;
+    bottom: -5px;
+}
+.navegacao a:hover::after{
+    width: 100%;
+}
+#projetos{
+    background-color: black;
+    color:azure;
+}
+.projetos h2{
+    padding: 20px;
+    text-align: center;
+}
+.projetos ul{
+    display: grid;
+
+    grid-template-columns: repeat(auto-fit, minmax(250px,1fr));
+    gap: 40px;
+    list-style:none;
+    padding:20px;
+    max-width: 1100px;
+    margin: 0 auto;
+}
+.projetos li{
+    display:flex;
+    justify-content: center;
+    align-items: center;
+}
+.projetos img{
+    object-fit: contain;
+    width: 300px;
+    height: 180px;
+    transition: transform 0.3s ease;
+}
+.projetos a:hover img{
+    transform: translateY(-10px);
+    filter: brightness(1.2);
+}
+.register-link a img{
+    display: inline-block;
+    transition: transform 0.3s ease;
+}
+.register-link a:hover img{
+    transform: translateY(-10px);
+    filter: brightness(1.2);
+}
+.register-link img{
+    width: 30px;
+    height: 30px;
+}
+.habilidades-grid{
+    display: flex;
+    flex-direction:row;
+    justify-content: center;
+    gap: 3.2rem;
+    padding: 3%;
+}
+.carta-habilidade{
+    flex-direction:row;
+    flex-wrap: wrap;
+    gap: 4rem;
+    width: 50%;
+    flex-grow:1;
+}
+.carta-habilidade{
+    padding: 2.8rem;
+    text-align: left;
+    background: #ecc483;
+    border-radius: 0.6rem;
+    box-shadow: -1rem 1rem 1rem rgba(0, 0, 0, 0.267);
+    transition: 400ms;
+}
+.carta-habilidade:hover{
+    background:#e49a45;
+}
+.carta-habilidade h3{
+    margin-block:1.6rem;
+}
+.carta-habilidade i{
+    font-size: 50px;
+}
+p{
+    justify-content: center;
+    text-align: center;
+    margin-top: 20px;
+    box-sizing: border-box;
+    
+}
+footer{
+    width: 100%;
+    z-index: 1000;
+    background-color: #ecc483;
+    padding: 0 70px;
+    border-bottom: 1px solid rgba(0,0,0,0.05);
+    flex-direction: column;
+    display: flex;
+    justify-content: center;
+    box-sizing:border-box;
+}
