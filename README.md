@@ -30,7 +30,7 @@ Neste portfólio, você encontrará links diretos para:
 - 🎓 **Análise e Desenvolvimento de Sistemas** (Em andamento).
 - 🌐 **CCNA: Introduction to Networks** - Cisco Networking Academy.
 - 🌐 **Introduction to Cibersecurity** - Cisco Networking Academy.
-- 🌐 **Defesa de Rede* - Cisco Networking Academy.
+- 🌐 **Defesa de Rede** - Cisco Networking Academy.
 
 ---
 
