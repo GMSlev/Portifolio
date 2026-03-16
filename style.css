@@ -75,8 +75,8 @@ h2{
     width: 100%;
 }
 #projetos{
-    background-color: black;
-    color:azure;
+    background-color: #f6e6ce;
+    color:rgb(0, 0, 0);
 }
 .projetos h2{
     padding: 20px;
