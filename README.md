@@ -40,5 +40,4 @@ Neste portfólio, você encontrará links diretos para:
 [![GitHub](https://img.shields.io/badge/GitHub-100000?style=for-the-badge&logo=github&logoColor=white)](https://www.github.com/GMSlev)
 [![Instagram](https://img.shields.io/badge/Instagram-E4405F?style=for-the-badge&logo=instagram&logoColor=white)](https://www.instagram.com/gabriel_gms545)
 
----
-*Este portfólio foi construído com foco em performance e design responsivo, utilizando apenas tecnologias nativas (HTML/CSS/JS).*
+
